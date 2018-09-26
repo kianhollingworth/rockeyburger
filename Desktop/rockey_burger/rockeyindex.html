@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rockey Burgers</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        .column:after{
+          content: "";
+          display: table;
+          clear: both;
+      }
+      .row {
+          float: left;
+          width: 25%;
+      }
+      .logo{
+          display: inline;
+          text-align: center;
+      }
+        .hero{
+            margin-left: 20%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <ul class="nav">
+            <li><a href="rockeyindex.html">Home</a></li>
+            <li><a href="aboutpage.html">About</a></li>
+            <li><a href="Menu.html">Menu</a></li>
+            <li><a href="rockeylocations.html">Locations</a></li>
+            <li><a href="jobspage.html">Jobs</a></li>
+            <li><a href="rockeyquestions.html">Questions</a></li>
+    </div>
+    <div class="container-img">
+        <img src="rockeyburgers03-logo.png" class="logo"/>
+        <img class="blur-test" src="rockeyburgerhero.png" class="hero"/>
+    </div>
+    <hr>
+    <div class="centered-footer">
+        <div class="column">
+            <form class="row">
+                <h1 "subscribe today"</h1>
+                <h3 "dont miss out on discounts"</h3>
+                <p>Full name:</p>
+                <input type="text">
+                <p>Email Address:</p>
+                <input type="email">
+                <p>phone number</p>
+                <input type="tel">
+                <input type="submit" value="submit">
+             </form>
+            <div class="row"
+                 <h1> Social Media </h1>
+                 <p> Follow us on twitter and Facebook </p>
+                 <a href="http://www.twitter.com/keyburgers" target="_blank"><img src="data:image/png;base64,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" style="width:100px;height:100px;"/></a>
+                 <a href="http://www.facebook.com/keyburgers" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAclBMVEU8Wpn////y9PgiSZE5WJhQaaLX3OgoTZLt7/QwUpU0VJahrMiGlLo2VpceR5B9jbbT2OVzhbHd4ev5+vyLmb3k5+9FYZ26wtfL0eBnfKuYpMRKZZ+qtM6gq8h+jrZZcKUAOoq+xtlWbqRgdqi6wtaToMF2KukBAAAETElEQVR4nO3d63aiMBSGYTBRDJoIHms9TWu9/1scW0dqHcdsiSHszPf+mV+z5FmiVHIgSWMvCX0A3vv/hB3+3REW07kREbQ69G4Ke12RyySGpBK78d/Cg9Ghj+yJSTO4Fo6y0Af15MT0p/AQG/BIXF8KCxP6eDxkZhfCbkyfwXN6+S0sROij8dLpTfwSTvPQB+MltamE8ziug9fJfSWM8Xsm+bzyn4WdOD+GxwsGhOyDkH8Q8g9C/kHIPwj5ByH/IOQfhPyDsAVpnZ/SudZSy+Sxm4JtFspcZcIku3I0nB4bbkflcv++SpQxQmRZplSu7drWClVmutNF0U9vNenMxsXbejMt363EVgqlEsnhZXITd531Vn0LhTLLfoxQ32/ITiiz+YLMYyg8+t4e8bET6mz9mI+bUJS0bxeuQmke+gDyE2o9qwFkJMy7j5+hrIRqX8vHR5jvagK5COW8LpCLMLueLRmb0BS1gTyE6rU+kIVQrhyALIRmbEFwF+ZDFyAHoan/PcpDmB+cgAyEjm9h+4X51g3YfqGg33PiKXS7FnIQqoEFwF4oav2uZyR0+NXERKgcL4btF2YvzsKWj1sI+uV+0vsYHIbb7ehU9W/XNvgU+HNI5a33IlOf44VVf0ZN7WsJgwp1SQNuhKq/GCSokPbjvrNSLi8SVvhBAeZuK86CCjPKHah3xyV1QYXi9ij9jxauyz7DCglDFQ/OLbnxIkGFdqD7qsiQQpnbha/OqyKDvoeEv7v3zqsig76HhJ+/7svLgwq7VuDE/ahaLpxFLxxHf5b2ILQHoc8ghJAWhD6DEEJaEPoMQghpQegzCCGkBaHPIGQiVHd2wrXv0Fz8smymG36VrHrt9P+dVTi5858/m1gnKvgXOk/rup/9LGYuJBw1cyHhnjhz4Vv0wrV9IgpzIWHjXObC0j4VhbmQsDUwcyHhoHkL+9ELKX+Y8xYSLofMhQPCvEzeQus0dvZCyowp3kLKlDDeQsoxsxZSLoe8hQXlPhVr4YIyiZ+1cBO9cEuZxs9auIteSForxFlIm0DMWUibQMxZ+EIatuEsJF0OWQtpq004C8vohfaRtSaE+cafkDY+HHIM2DiOAdOWRGEc32cQQkgLQp9BCCEtCH0GIYS0IPQZhBDSgtBnEEJIC0KfQQghLQh9BiGEtCD0GYQQ0oLQZxBCSAtCn0EIIS0IfQYhhLQg9BmEENKC0GcQQkgLQp9BCCEtCH0GIYS0IPQZhBDSgtBnEEJIC0KfQQghrUpI2t3tuTUiPD2w9ku4cn5q68Mv3oRQLyvhwekJ5nVqRHjaeuRL2Gv8NG1EaPqVMN01fZo2IdRl+i0cm6ccN70mhKe38I8wHTR8njYgNIv0UphOmyX6F5rz/j/VTjhrQ9mn71n5FurzO3ghTGdLo2RT3zg+hVIrU34/5eVyN6PZZn/v4TfPzHUXpXvly8HlU2zsr8Q9CPkXv/A3+sZjUOLI4n0AAAAASUVORK5CYII=" style="width:100px;height:100px;"/></a>
+            <div/>
+        </div>
+    </div>
+</body>
+</html>
